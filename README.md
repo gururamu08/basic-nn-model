@@ -6,11 +6,17 @@ To develop a neural network regression model for the given dataset.
 
 ## THEORY
 
-Explain the problem statement
+1) Neural networks consist of simple input/output units called neurons (inspired by neurons of the human brain). These input/output units are interconnected and each connection has a weight associated with it.
+
+2) Regression helps in establishing a relationship between a dependent variable and one or more independent variables. Regression models work well only when the regression equation is a good fit for the data. Most regression models will not fit the data perfectly.
+
+3) First import the libraries which we will going to use and Import the dataset and check the types of the columns and Now build your training and test set from the dataset Here we are making the neural network 3 hidden layer with activation layer as relu and with their nodes in them. Now we will fit our dataset and then predict the value.
 
 ## Neural Network Model
 
-Include the neural network model diagram.
+![image](https://github.com/user-attachments/assets/6e0ebbd4-379c-42f8-8270-5536f1f2fa0c)
+
+
 
 ## DESIGN STEPS
 
@@ -18,29 +24,36 @@ Include the neural network model diagram.
 
 Loading the dataset
 
+
 ### STEP 2:
 
 Split the dataset into training and testing
+
 
 ### STEP 3:
 
 Create MinMaxScalar objects ,fit the model and transform the data.
 
+
 ### STEP 4:
 
 Build the Neural Network Model and compile the model.
+
 
 ### STEP 5:
 
 Train the model with the training data.
 
+
 ### STEP 6:
 
 Plot the performance plot
 
+
 ### STEP 7:
 
 Evaluate the model with the testing data.
+
 
 ## PROGRAM
 ### Name: GURUMOORTHI R
